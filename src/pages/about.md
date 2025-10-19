@@ -9,11 +9,11 @@ Hi, I'm **Sugu Sougoumarane**, Head of Multigres at [Supabase](https://supabase.
 
 ## Background
 
-I have extensive experience in distributed systems, databases, and infrastructure engineering. Currently, I lead the Multigres project at Supabase, working on innovative solutions for multi-region PostgreSQL deployments.
+I returned from a three-year sabbatical to work on [Multigres](https://multigres.com). Due to this, many of my blog contributions are on that site. But I may post any opinionated thoughts here.
 
-## Open Source
+I previously co-founded PlanetScale, which was based on [Vitess](https://vitess.io), a project I co-created while at Google/YouTube.
 
-I'm passionate about open source software and have contributed to various projects throughout my career. You can find my work on [GitHub](https://github.com/sougou).
+I'm also an indirect co-inventor of [FlexPaxos](https://arxiv.org/abs/1608.06696).
 
 ## Connect
 
