@@ -1,0 +1,44 @@
+welcome:
+  label: "Welcome"
+  permalink: "/welcome"
+  description: "Introductory posts"
+
+meta:
+  label: "Meta"
+  permalink: "/meta"
+  description: "Posts about the blog itself"
+
+tutorial:
+  label: "Tutorial"
+  permalink: "/tutorial"
+  description: "Step-by-step guides"
+
+architecture:
+  label: "Architecture"
+  permalink: "/architecture"
+  description: "Software architecture and design patterns"
+
+performance:
+  label: "Performance"
+  permalink: "/performance"
+  description: "Performance optimization topics"
+
+tooling:
+  label: "Tooling"
+  permalink: "/tooling"
+  description: "Developer tools and workflows"
+
+database:
+  label: "Database"
+  permalink: "/database"
+  description: "Database systems, PostgreSQL, and data management"
+
+infrastructure:
+  label: "Infrastructure"
+  permalink: "/infrastructure"
+  description: "Infrastructure engineering and DevOps"
+
+distributed-systems:
+  label: "Distributed Systems"
+  permalink: "/distributed-systems"
+  description: "Distributed systems, scalability, and consensus"

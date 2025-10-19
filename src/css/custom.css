@@ -1,0 +1,154 @@
+/**
+ * Minimalist theme for sougou.io
+ * Clean, developer-focused design with excellent readability
+ */
+
+/* Light mode - minimalist color palette */
+:root {
+  --ifm-color-primary: #2d3748;
+  --ifm-color-primary-dark: #1a202c;
+  --ifm-color-primary-darker: #171923;
+  --ifm-color-primary-darkest: #0d0f14;
+  --ifm-color-primary-light: #4a5568;
+  --ifm-color-primary-lighter: #718096;
+  --ifm-color-primary-lightest: #a0aec0;
+
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", sans-serif;
+  --ifm-font-family-monospace:
+    "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Droid Sans Mono",
+    "Source Code Pro", monospace;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+
+  /* Minimalist spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-navbar-height: 3.5rem;
+
+  /* Clean backgrounds */
+  --ifm-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #f7fafc;
+}
+
+/* Dark mode - clean and easy on the eyes */
+[data-theme="dark"] {
+  --ifm-color-primary: #e2e8f0;
+  --ifm-color-primary-dark: #cbd5e0;
+  --ifm-color-primary-darker: #a0aec0;
+  --ifm-color-primary-darkest: #718096;
+  --ifm-color-primary-light: #f7fafc;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+
+  --ifm-background-color: #1a202c;
+  --ifm-navbar-background-color: #1a202c;
+  --ifm-footer-background-color: #0d1117;
+}
+
+/* Typography - optimized for readability */
+.markdown h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.markdown h2 {
+  font-size: 1.875rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.markdown h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.markdown p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Clean navbar */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Minimal footer */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  padding: 2rem 0;
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+/* Blog post styling */
+article header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+article header time {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+/* Code blocks - clean and minimal */
+div[class^="codeBlockContainer"] {
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+code {
+  border-radius: 0.25rem;
+}
+
+/* Blog list items - clean cards */
+.blog-list-item {
+  margin-bottom: 3rem;
+}
+
+.blog-list-item header h2 {
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+
+/* Tags - minimal style */
+.badge {
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+/* Reading time and metadata */
+.margin-vert--md {
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Responsive improvements */
+@media (max-width: 996px) {
+  .navbar__title {
+    font-size: 1.1rem;
+  }
+
+  article header h1 {
+    font-size: 2rem;
+  }
+}
